@@ -16,5 +16,11 @@
 <bottom class="tmp" onclick="window.open('https://rusneb.ru')">НЭБ</bottom>
 <bottom class="tmp" onclick="window.open('http://www.iprbookshop.ru')">Iprbookshop</bottom></div>
 <div class="info"><h1>Библиотеки</h1></div></div></div>
+<script>
+    document.ondragstart = noselect;
+    document.onselectstart = noselect;
+    document.oncontextmenu = noselect;
+    function noselect() {return false;}
+</script>
 </body>
 </html>
