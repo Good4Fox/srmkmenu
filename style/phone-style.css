@@ -8,10 +8,16 @@
     }
     
     .info {
-    color: rgb(54, 54, 64);
-    font-size: 100%;
-    font-family: Arial Black;
-    white-space: pre;
-}
+        color: rgb(54, 54, 64);
+        font-size: 100%;
+        font-family: Arial Black;
+        white-space: pre;
+    }
+    
+    .create {
+        left: 3%;
+        top: 100%;
+        margin: 8% 5%;
+    }
 
 }
