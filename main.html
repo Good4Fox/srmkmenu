@@ -36,5 +36,11 @@ const App = () => {
     document.oncontextmenu = noselect;
     function noselect() {return false;}
 </script>
+<script>
+    document.ondragstart = noselect;
+    document.onselectstart = noselect;
+    document.oncontextmenu = noselect;
+    function noselect() {return false;}
+</script>
 </body>
 </html>
