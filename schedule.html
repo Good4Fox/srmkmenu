@@ -15,5 +15,11 @@
 <bottom class="tmp" onclick="window.location.href = 'https://good4lis.github.io/srmkmenu/schedule/schedule2.html';")">2 Курс</bottom>
 <bottom class="tmp" onclick="window.location.href = 'https://good4lis.github.io/srmkmenu/schedule/schedule1.html';">1 Курс</bottom></div>
 <div class="info"><h1>Расписание</h1></div></div></div>
+<script>
+    document.ondragstart = noselect;
+    document.onselectstart = noselect;
+    document.oncontextmenu = noselect;
+    function noselect() {return false;}
+</script>
 </body>
 </html>
