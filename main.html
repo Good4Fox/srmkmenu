@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+	<title>Меню</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/phone-style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="panel"><div class="menu"><div class="panel-list">
+<bottom class="tmp" onclick="window.location.href = 'https://good4lis.github.io/srmkmenu/additionally.html';">Дополнительно</bottom>
+<bottom class="tmp" onclick="window.location.href = 'https://good4lis.github.io/srmkmenu/library.html';">Библиотеки</bottom>
+<bottom class="tmp" onclick="window.location.href = 'https://good4lis.github.io/srmkmenu/schedule.html';">Расписание</bottom>
+<bottom class="tmp" onclick="window.open('https://vk.com/student8books')">Книги</bottom>
+<bottom class="tmp" onclick="window.open('http://www.rmk.stavedu.ru') ">Наш сайт</bottom></div>
+<div class="info"><h1>Меню</h1></div></div></div>
+<script src="https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js"></script>
+ 
+<script>
+  // Sends event to client
+  vkBridge.send('VKWebAppInit');
+</script> 
+<script>
+import React, { useState, useEffect } from 'react';
+import connect from '@vkontakte/vk-connect';
+import View from '@vkontakte/vkui/dist/components/View/View';
+import '@vkontakte/vkui/dist/vkui.css';
+
+import Home from './panels/Home';
+import Persik from './panels/Persik';
+
+const App = () => {
+ const [activePanel, setActivePanel] = useState('home');
+ const [fetchedUser, setUser] = useState(null);
+ const [popout, setPopout] = useState(null);
+</script>
+</body>
+</html>
