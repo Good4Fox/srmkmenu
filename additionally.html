@@ -15,5 +15,11 @@
 <bottom class="tmp" onclick="window.open('https://vk.com/albums-153248304')">Фотоальбом</bottom>
 <bottom class="tmp" onclick="window.open('https://vk.com/student8books')">Наша Библиотека</bottom></div>
 <div class="info"><h1>Дополнительно</h1></div></div></div>
+<script>
+    document.ondragstart = noselect;
+    document.onselectstart = noselect;
+    document.oncontextmenu = noselect;
+    function noselect() {return false;}
+</script>
 </body>
 </html>
