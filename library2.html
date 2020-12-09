@@ -15,5 +15,11 @@
 <bottom class="tmp" onclick="window.open('http://skunb.ru')">СКУНБ</bottom>
 <bottom class="tmp" onclick="window.open('https://urait.ru/')">Urait</bottom></div>
 <div class="info"><h1>Библиотеки</h1></div></div></div>
+<script>
+    document.ondragstart = noselect;
+    document.onselectstart = noselect;
+    document.oncontextmenu = noselect;
+    function noselect() {return false;}
+</script>
 </body>
 </html>
