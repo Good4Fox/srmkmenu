@@ -107,3 +107,22 @@ a {
     transition: background-color 0.3s ease-in,
         color 0.3s ease-in;
 }
+
+.create {
+    position: absolute;
+    z-index: 1;
+    width: 1%;
+    height: 1vh;
+    background-color: transparent;
+    border: 2px solid rgba(225, 225, 225, 0);
+    color: rgb(255, 255, 255);
+    padding: 1% 1%;
+    text-align: center;
+    cursor: pointer;
+    font-size: 200%;
+    font-family: Arial Black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: pre;
+}
