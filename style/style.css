@@ -4,7 +4,7 @@ html {
 
 body {
     background-attachment: fixed;
-    background-image: url(https://good4lis.github.io/srmkmenu/img/fons.jpg);
+    background-image: url(/img/fons.jpg);
     background-size: 100% 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -37,6 +37,7 @@ a {
     display: flex;
     justify-content: center;
 }
+
 .menu {
     width: 50%;
     height: 100vh;
@@ -50,6 +51,12 @@ a {
 .info {
     color: #eeeeee;
     font-size: 150%;
+    font-family: Arial Black;
+}
+
+.info-text {
+    color: #eeeeee;
+    font-size: 200%;
     font-family: Arial Black;
 }
 
