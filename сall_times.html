@@ -21,5 +21,11 @@
 <h1 class="info-text">1 Смена</h1>
 </div>
 <div class="info"><h1>Расписание звонков</h1></div></div></div>
+<script>
+    document.ondragstart = noselect;
+    document.onselectstart = noselect;
+    document.oncontextmenu = noselect;
+    function noselect() {return false;}
+</script>
 </body>
 </html>
