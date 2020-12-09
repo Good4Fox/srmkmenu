@@ -52,12 +52,14 @@ a {
     color: rgb(54, 54, 64);
     font-size: 150%;
     font-family: Arial Black;
+    white-space: pre;
 }
 
 .info-text {
     color: rgb(54, 54, 64);
     font-size: 160%;
     font-family: Arial Black;
+    white-space: pre;
 }
 
 .panel-list {
