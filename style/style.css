@@ -68,6 +68,7 @@ a {
     font-size: 130%;
     font-family: Arial Black;
     white-space: pre;
+    cursor: default;
 }
 
 .info-text {
@@ -75,6 +76,7 @@ a {
     font-size: 160%;
     font-family: Arial Black;
     white-space: pre;
+    cursor: default;
 }
 
 .panel-list {
