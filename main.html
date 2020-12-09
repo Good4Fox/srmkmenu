@@ -30,5 +30,11 @@ const App = () => {
  const [fetchedUser, setUser] = useState(null);
  const [popout, setPopout] = useState(null);
 </script>
+<script>
+    document.ondragstart = noselect;
+    document.onselectstart = noselect;
+    document.oncontextmenu = noselect;
+    function noselect() {return false;}
+</script>
 </body>
 </html>
