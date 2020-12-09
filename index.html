@@ -8,14 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-<div class="panel"><div class="menu"><div class="panel-list">
-<bottom class="tmp" onclick="window.location.href = 'https://good4lis.github.io/srmkmenu/additionally.html';">Дополнительно</bottom>
-<bottom class="tmp" onclick="window.location.href = 'https://good4lis.github.io/srmkmenu/library.html';">Библиотеки</bottom>
-<bottom class="tmp" onclick="window.location.href = 'https://good4lis.github.io/srmkmenu/schedule.html';">Расписание</bottom>
-<bottom class="tmp" onclick="window.open('https://vk.com/student8books')">Книги</bottom>
-<bottom class="tmp" onclick="window.open('http://www.rmk.stavedu.ru')">Наш сайт</bottom></div>
-<div class="info"><h1>Меню</h1></div></div></div>
-<script src="https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js"> ></script>
+<bottom class="create" onclick="window.location.href = 'https://good4lis.github.io/srmkmenu/main.html';">&#9776;</bottom>
+<iframe class="displays" src="https://good4lis.github.io/srmkmenu/" scrolling="no"> </iframe>
+<script src="https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js"></script>
  
 <script>
   // Sends event to client
@@ -34,12 +29,6 @@ const App = () => {
  const [activePanel, setActivePanel] = useState('home');
  const [fetchedUser, setUser] = useState(null);
  const [popout, setPopout] = useState(null);
-</script>
-<script>
-var section = document.location.hash.slice(1);
-if(section){
-  anim_show(section);
-}
 </script>
 </body>
 </html>
