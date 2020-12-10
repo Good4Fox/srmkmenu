@@ -1,120 +1,3 @@
-html {
-    min-height: 100%;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    -o-user-select: none;
-    user-select: none;
-}
-
-body {
-    background-attachment: fixed;
-    background-image: url(https://good4lis.github.io/srmkmenu/img/fons2.jpg);
-    background-size: 100% 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    min-height: 100%;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-p {
-    margin: 1em 0;
-    text-align: center;
-}
-
-a {
-    text-decoration: none;
-    color: #ffffff;
-}
-
-* {
-    margin: 0px;
-    padding: 0px;
-    flex-wrap: nowrap;
-}
-
-/* Начало */
-.displays {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100vh;
-    border: 0px;
-}
-
-.panel {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-}
-
-.menu {
-    width: 50%;
-    height: 100vh;
-    background: rgba(255, 255, 255, 0.30);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column-reverse;
-}
-
-.info {
-    color: rgb(54, 54, 64);
-    font-size: 130%;
-    font-family: Arial Black;
-    white-space: pre;
-    cursor: default;
-}
-
-.info-text {
-    color: rgb(54, 54, 64);
-    font-size: 160%;
-    font-family: Arial Black;
-    white-space: pre;
-    cursor: default;
-}
-
-.panel-list {
-    width: 55%;
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column-reverse;
-}
-
-.tmp {
-    width: 100%;
-    height: 10vh;
-    margin: 5% 0%;
-    background-color: transparent;
-    border: 2px solid rgb(225, 225, 225);
-    color: rgb(54, 54, 64);
-    padding: 1% 30%;
-    text-align: center;
-    cursor: pointer;
-    border-radius: 30px;
-    font-size: 200%;
-    font-family: Arial Black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    white-space: pre;
-}
-
-.tmp:hover {
-    background-color: rgb(225, 225, 225);
-    border: 2px solid rgb(225, 225, 225);
-    color: rgb(54, 54, 64);
-    transition: background-color 0.3s ease-in,
-        color 0.3s ease-in;
-}
-
 .create {
     left: 3%;
     top: 1%;
@@ -131,18 +14,18 @@ a {
     align-items: center;
     position: relative;
   height: 16px; width: 8px;
-  border: 14px solid #ffffff; border-bottom: none;
+  border: 14px solid #f0f0f0; border-bottom: none;
 }
 
 .create:before {
   content: "";
   position: absolute; top: -30px;
   right: -26px; /* 30px - 8px/2 */ 
-  border-style: solid; border-width: 0 30px 20px; border-color: rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) #ffffff;
+  border-style: solid; border-width: 0 30px 20px; border-color: rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) #f0f0f0;
 }
 .create:after {
   content: "";
   position: absolute; top: -30px; left: 13px;
   height: 10px;
-  border: 4px solid #ffffff;
+  border: 4px solid #f0f0f0;
 }
