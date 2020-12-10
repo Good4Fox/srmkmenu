@@ -23,6 +23,7 @@
   right: -26px; /* 30px - 8px/2 */ 
   border-style: solid; border-width: 0 30px 20px; border-color: rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) #f0f0f0;
 }
+
 .create:after {
   content: "";
   position: absolute; top: -30px; left: 13px;
