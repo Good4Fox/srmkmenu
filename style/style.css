@@ -66,7 +66,7 @@ a {
 .info {
     color: rgb(54, 54, 64);
     font-size: 130%;
-    font-family: Arial Black;
+    font-family: Tahoma;
     white-space: pre;
     cursor: default;
 }
@@ -74,7 +74,7 @@ a {
 .info-text {
     color: rgb(54, 54, 64);
     font-size: 160%;
-    font-family: Arial Black;
+    font-family: Tahoma;
     white-space: pre;
     cursor: default;
 }
@@ -100,7 +100,7 @@ a {
     cursor: pointer;
     border-radius: 30px;
     font-size: 200%;
-    font-family: Arial Black;
+    font-family: Tahoma;
     display: flex;
     justify-content: center;
     align-items: center;
