@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://good4lis.github.io/srmkmenu/style/phone-style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body>
+<body class="body_hide">
 <div class="panel"><div class="menu"><div class="panel-list">
 <bottom class="tmp" onclick="window.location.href = 'https://good4lis.github.io/srmkmenu/additionally.html';">Назад</bottom>
 <h1 class="info-text">7 Пара 18:30-20:00</h1>
@@ -19,6 +19,19 @@
 <h1 class="info-text">2 Пара 9:40-11:10</h1>
 <h1 class="info-text">1 Пара 8:00-9:30</h1>
 <h1 class="info-text">1 Смена</h1>
+<!-- сокращёнка -->
+<!--
+<h1 class="info-text">7 Пара 13:30-14:15</h1>
+<h1 class="info-text">6 Пара 12:35-13:20</h1>
+<h1 class="info-text">5 Пара 11:40-12:25</h1>
+<h1 class="info-text">2 Смена</h1>
+<h1 class="info-text">4 Пара 10:45-11:30</h1>
+<h1 class="info-text">3 Пара 9:50-10:35</h1>
+<h1 class="info-text">2 Пара 8:55-9:40</h1>
+<h1 class="info-text">1 Пара 8:00-8:45</h1>
+<h1 class="info-text">1 Смена</h1>
+<h1 class="info-text">Сокращенные пары</h1>
+-->
 </div>
 <div class="info"><h1>Расписание звонков</h1></div></div></div>
 <script>
@@ -26,6 +39,10 @@
     document.onselectstart = noselect;
     document.oncontextmenu = noselect;
     function noselect() {return false;}
+    
+    setTimeout(function(){
+	document.body.classList.add('body_visible');
+}, 200);
 </script>
 </body>
 </html>
