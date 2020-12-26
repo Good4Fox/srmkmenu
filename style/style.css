@@ -107,6 +107,14 @@ a {
     cursor: default;
 }
 
+.info-t {
+    color: rgb(255, 255, 255);
+    font-size: 120%;
+    font-family: Tahoma;
+    white-space: pre;
+    cursor: default;
+}
+
 .info-text {
     color: rgb(255, 255, 255);
     font-size: 160%;
