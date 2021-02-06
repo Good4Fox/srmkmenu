@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+	<title>Меню</title>
+    <link rel="stylesheet" href="https://good4lis.github.io/srmkmenu/style/style.css">
+    <link rel="stylesheet" href="https://good4lis.github.io/srmkmenu/style/phone-style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body class="body_hide">
+<div class="panel"><div class="menu">
+<div class="schedule_panel_info">
+    <div class="schedule-button" onclick="window.location.href = '';">КС-41</div>
+    <div class="schedule-button" onclick="window.location.href = '';">ПБ-41</div>
+    <div class="schedule-button" onclick="window.location.href = '';">С-46</div>
+    <div class="schedule-button" onclick="window.location.href = '';">Ю-41</div>
+            <!--  Строка 2  -->
+    <div class="schedule-button" onclick="window.location.href = '';">П-41</div>
+    <div class="schedule-button" onclick="window.location.href = '';">ПБ-42</div>
+    <div class="schedule-button" onclick="window.location.href = '';">С-47</div>
+            <!--  Строка 3  -->
+    <div class="schedule-button" onclick="window.location.href = '';">М-41</div>
+    <div class="schedule-button" onclick="window.location.href = '';">Э-42</div>
+    <div class="schedule-button" onclick="window.location.href = '';">МК-42</div>
+            <!--  Строка 4  -->
+    <div class="schedule-button" onclick="window.location.href = '';">Т-41</div>
+    <div class="schedule-button" onclick="window.location.href = '';">С-44</div>
+    <div class="schedule-button" onclick="window.location.href = '';">Б-42</div>
+</div>
+<div class="info"><h1>4 Курс</h1></div></div></div>
+<script>
+    document.ondragstart = noselect;
+    document.onselectstart = noselect;
+    document.oncontextmenu = noselect;
+    function noselect() {return false;}
+    
+    setTimeout(function(){
+	document.body.classList.add('body_visible');
+}, 200);
+</script>
+</body>
+</html>
