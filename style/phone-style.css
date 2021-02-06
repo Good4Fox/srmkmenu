@@ -23,5 +23,9 @@
         top: 100%;
         margin: 8% 5%;
     }
+    
+    .schedule-button {
+        font-size: 100%;
+    }
 
 }
