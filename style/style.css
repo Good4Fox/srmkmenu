@@ -92,7 +92,7 @@ a {
 .menu {
     width: 55%;
     height: 100vh;
-    background: rgba(200, 200, 200, 0.30);
+    background: rgba(180, 180, 180, 0.30);
     display: flex;
     justify-content: center;
     align-items: center;
