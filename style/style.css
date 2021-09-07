@@ -21,7 +21,7 @@ body {
 
 .body_hide {
 	opacity: 0;
-	transition: .9s opacity ease-in-out;
+	transition: 0.25s opacity ease-in-out;
 }
 .body_visible {
 	opacity: 1;
@@ -155,8 +155,8 @@ a {
     background-color: rgb(225, 225, 225);
     border: 2px solid rgb(225, 225, 225);
     color: rgb(150, 150, 150);
-    transition: background-color 0.3s ease-in,
-        color 0.3s ease-in;
+    transition: background-color 0.25s ease-in,
+        color 0.25s ease-in;
 }
 
 .create {
@@ -224,6 +224,6 @@ a {
      background-color: rgb(225, 225, 225);
     border: 2px solid rgb(225, 225, 225);
     color: rgb(150, 150, 150);
-    transition: background-color 0.3s ease-in,
-        color 0.3s ease-in;
+    transition: background-color 0.25s ease-in,
+        color 0.25s ease-in;
 }
