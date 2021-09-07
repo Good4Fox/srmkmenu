@@ -17,33 +17,6 @@
 <div class="info"><h1>Меню</h1></div></div></div>
 <script src="https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js"></script>
  
-<script>
-  // Sends event to client
-  vkBridge.send('VKWebAppInit');
-</script> 
-<script>
-import React, { useState, useEffect } from 'react';
-import connect from '@vkontakte/vk-connect';
-import View from '@vkontakte/vkui/dist/components/View/View';
-import '@vkontakte/vkui/dist/vkui.css';
-
-import Home from './panels/Home';
-import Persik from './panels/Persik';
-
-const App = () => {
- const [activePanel, setActivePanel] = useState('home');
- const [fetchedUser, setUser] = useState(null);
- const [popout, setPopout] = useState(null);
-</script>
-<script>
-    document.ondragstart = noselect;
-    document.onselectstart = noselect;
-    document.oncontextmenu = noselect;
-    function noselect() {return false;}
-    
-    setTimeout(function(){
-	document.body.classList.add('body_visible');
-}, 100);
-</script>
+<script src="https://good4fox.github.io/srmkmenu/javascript.js"></script>
 </body>
 </html>
