@@ -1,5 +1,5 @@
 // Sends event to client
-  vkBridge.send('VKWebAppInit');
+vkBridge.send('VKWebAppInit');
 
 import React, { useState, useEffect } from 'react';
 import connect from '@vkontakte/vk-connect';
