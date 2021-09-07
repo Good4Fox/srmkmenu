@@ -21,7 +21,7 @@ body {
 
 .body_hide {
 	opacity: 0;
-	transition: 0.25s opacity ease-in-out;
+	transition: 0.05s opacity ease-in-out;
 }
 .body_visible {
 	opacity: 1;
